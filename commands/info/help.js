@@ -2,7 +2,7 @@ const { MessageEmbed, Message, Client } = require("discord.js");
 const { readdirSync } = require("fs");
 const prefix = require("../../config.json").prefix;
 let color = "#7289da";
-
+// this command is by github.com/ishandev2004
 const create_mh = require("../../functions/menu_help");
 
 module.exports = {
